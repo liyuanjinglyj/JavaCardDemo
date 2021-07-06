@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <ohos.agp.components.webengine.WebView
+        ohos:id="$+id:ability_main_webview"
+        ohos:height="500vp"
+        ohos:width="match_parent"/>
+
+    <Button
+        ohos:id="$+id:ability_main_button"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="调用JavaScript函数"
+        ohos:text_size="25vp"
+        ohos:text_color="#FF0000"/>
+
+</DirectionalLayout>

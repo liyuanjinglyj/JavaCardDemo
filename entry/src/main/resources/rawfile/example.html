@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>title</title>
+        <script type="text/javascript">
+        function myClick() {
+             var result = JsCallbackToApp.call("我是网页传递给App的数据");
+        }
+        function aAddb(a, b) {
+            return a + b;
+        }
+        </script>
+    </head>
+    <body>
+        <input
+                type="button"
+                onclick="myClick()"
+                value="弹出鸿蒙ToastDialog"/>
+    </body>
+</html>
